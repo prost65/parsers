@@ -29,7 +29,6 @@ fetch('http://')
           res => {
             fs.writeFile('new.json', JSON.stringify(res), err => {
               if (err) {
-                console.log(err);
                 return console.log(err);
               }
             });
